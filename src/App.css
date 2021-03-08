@@ -1,0 +1,21 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  gap: 2px 2px;
+  grid-template-areas:
+    "odp odp odp"
+    "q w e"
+    "a s d"
+    "z x c";
+}
+.odp { grid-area: odp; }
+.q { grid-area: q; }
+.w { grid-area: w; }
+.e { grid-area: e; }
+.a { grid-area: a; }
+.s { grid-area: s; }
+.d { grid-area: d; }
+.z { grid-area: z; }
+.x { grid-area: x; }
+.c { grid-area: c; }
